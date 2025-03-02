@@ -1,0 +1,10 @@
+1. git clone <ссылка>
+2. venv и запуск проекта - в cmd.exe
+3. py -m venv venv
+4. venv\Scripts\activate (появится (venv))
+5. py -m pip install aiogram
+   py -m pip install python-dotenv
+6. Пропишите в bot.py основы:
+   все импорты
+   ответ на команду "start"
+   токен, который читается из файла .env
